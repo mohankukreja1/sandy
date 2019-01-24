@@ -11,6 +11,6 @@ const main = require('./route/user');
 
 app.use('/',express.static(path.join(__dirname,'./frontend')));
 
-app.listen(8081,function(){
+app.listen(process.env.PORT || 5000,function(){
     console.log('server started');
 })

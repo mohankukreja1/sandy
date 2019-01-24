@@ -1,7 +1,6 @@
 {
   "name": "fitness",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,5 +10,31 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
-  }
+  },
+  "engines": {
+    "node": "10.4.1"
+  },
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-sass": "latest",
+    "gulp-uglify": "latest",
+    "gulp-rename": "latest",
+    "gulp-notify": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-concat": "latest",
+    "gulp-plumber": "latest",
+    "browser-sync": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-clean-css": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohankukreja1/sandy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mohankukreja1/sandy/issues"
+  },
+  "homepage": "https://github.com/mohankukreja1/sandy#readme",
+  "description": ""
 }
