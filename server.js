@@ -8,7 +8,7 @@ app.use(body_parser.urlencoded({extended:true}));
 app.use(body_parser.json());
 
 const main = require('./route/user');
-
+app.use('/main',main);
 app.use('/',express.static(path.join(__dirname,'./frontend')));
 
 app.listen(process.env.PORT || 5000,function(){

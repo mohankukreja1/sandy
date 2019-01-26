@@ -28,6 +28,7 @@
     "gulp-autoprefixer": "latest",
     "gulp-clean-css": "latest"
   },
+  "author": "sandy-sen",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mohankukreja1/sandy.git"
