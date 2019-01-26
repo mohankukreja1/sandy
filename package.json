@@ -6,10 +6,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "sandy-sen",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "nodemailer": "^5.1.1"
   },
   "engines": {
     "node": "10.4.1"
@@ -28,7 +29,6 @@
     "gulp-autoprefixer": "latest",
     "gulp-clean-css": "latest"
   },
-  "author": "sandy-sen",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mohankukreja1/sandy.git"
